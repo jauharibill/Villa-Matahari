@@ -67,11 +67,11 @@ $tagline = htmlspecialchars($site['tagline'], ENT_QUOTES, 'UTF-8');
             </div>
             <div class="portfolio-grid">
                 <?php foreach ($site['gallery'] as $img): ?>
-                    <?php if (file_exists(__DIR__ . '/' . $img)): ?>
+                    <?php if (file_exists(__DIR__ . '/' . $img['src'])): ?>
                         <div class="portfolio-card">
                             <div class="portfolio-img">
-                                <img src="/<?php echo htmlspecialchars($img, ENT_QUOTES, 'UTF-8'); ?>"
-                                     alt="<?php echo $name; ?>"
+                                <img src="/<?php echo htmlspecialchars($img['src'], ENT_QUOTES, 'UTF-8'); ?>"
+                                     alt="<?php echo htmlspecialchars($name . ' - ' . $img['alt'], ENT_QUOTES, 'UTF-8'); ?>"
                                      loading="lazy">
                             </div>
                         </div>
