@@ -23,7 +23,7 @@
 </footer>
 <script>
 document.getElementById('hamburger')?.addEventListener('click', function () {
-    document.getElementById('navLinks')?.classList.toggle('open');
+    document.querySelector('#navLinks .nav-links')?.classList.toggle('open');
 });
 // Navbar solid on scroll
 window.addEventListener('scroll', function () {
