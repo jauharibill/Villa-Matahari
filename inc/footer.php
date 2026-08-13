@@ -25,7 +25,21 @@
 document.getElementById('hamburger')?.addEventListener('click', function () {
     document.querySelector('#navLinks .nav-links')?.classList.toggle('open');
 });
-// Navbar solid on scroll
+// Smooth scroll for in-page nav links with fixed-navbar offset
+document.querySelectorAll('.nav-links a[href^="#"]').forEach(function (a) {
+    a.addEventListener('click', function (e) {
+        var id = this.getAttribute('href');
+        if (id.length < 2) return;
+        var target = document.querySelector(id);
+        if (!target) return;
+        e.preventDefault();
+        var navH = document.getElementById('navbar') ? document.getElementById('navbar').offsetHeight : 0;
+        var y = target.getBoundingClientRect().top + window.pageYOffset - navH - 10;
+        window.scrollTo({ top: y, behavior: 'smooth' });
+        // close mobile menu if open
+        document.querySelector('#navLinks .nav-links')?.classList.remove('open');
+    });
+});
 window.addEventListener('scroll', function () {
     document.getElementById('navbar')?.classList.toggle('scrolled', window.scrollY > 40);
 });
