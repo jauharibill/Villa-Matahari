@@ -4,10 +4,11 @@
  * Semua output di-render via htmlspecialchars()/esc_attr()/json_encode() (anti-XSS).
  */
 $site = array(
-    'name'        => 'Villa [NAMA]',                       // contoh: Villa Batu Permai
-    'tagline'     => 'Surga tenang di kaki gunung, Kota Batu',
-    'description' => 'Villa [NAMA] Kota Batu — penginapan nyaman dengan view gunung, ' .
-                     'kolam renang, WiFi cepat. Mulai Rp 750.000/malam. Booking via WhatsApp!',
+    'name'        => 'Villa Matahari',
+    'tagline'     => 'Rumah nyaman untuk menginap, di kaki Gunung Arjuno Kota Batu',
+    'description' => 'Villa Matahari Kota Batu — penginapan nyaman dengan view gunung, ' .
+                     'kolam renang, WiFi cepat, dan suasana yang tenang seperti rumah sendiri. ' .
+                     'Mulai Rp 750.000/malam. Booking via WhatsApp!',
     'location'    => 'Kota Batu, Jawa Timur',
     'wa'          => '6282245088948',                      // 62xxx tanpa +
     'email'       => 'villa@batuteknologi.web.id',
@@ -31,10 +32,11 @@ $site = array(
         'assets/img/gallery-5.jpg',
         'assets/img/gallery-6.jpg',
     ),
+    // Testimoni netral (placeholder) — ganti dengan data asli dari pemilik nanti.
     'testimonials' => array(
-        array('name' => '[Nama Tamu]', 'text' => '[Testimoni tamu puas terhadap villa Anda.]'),
-        array('name' => '[Nama Tamu]', 'text' => '[Testimoni tamu puas terhadap villa Anda.]'),
-        array('name' => '[Nama Tamu]', 'text' => '[Testimoni tamu puas terhadap villa Anda.]'),
+        array('name' => 'Tamu', 'text' => 'Menginap di sini terasa seperti di rumah sendiri: nyaman, bersih, dan pemandangan yang menenangkan.'),
+        array('name' => 'Tamu', 'text' => 'Suasana tenang di kaki gunung dengan fasilitas lengkap. Cocok untuk liburan keluarga.'),
+        array('name' => 'Tamu', 'text' => 'Pengalaman menginap yang menyenangkan. Tempat yang sempurna untuk sekadar bersantai.'),
     ),
 );
 

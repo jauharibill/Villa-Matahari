@@ -67,13 +67,29 @@ $tagline = htmlspecialchars($site['tagline'], ENT_QUOTES, 'UTF-8');
             </div>
             <div class="portfolio-grid">
                 <?php foreach ($site['gallery'] as $img): ?>
-                    <div class="portfolio-card">
-                        <div class="portfolio-img">
-                            <img src="/<?php echo htmlspecialchars($img, ENT_QUOTES, 'UTF-8'); ?>"
-                                 alt="<?php echo $name; ?>"
-                                 loading="lazy">
+                    <?php if (file_exists(__DIR__ . '/' . $img)): ?>
+                        <div class="portfolio-card">
+                            <div class="portfolio-img">
+                                <img src="/<?php echo htmlspecialchars($img, ENT_QUOTES, 'UTF-8'); ?>"
+                                     alt="<?php echo $name; ?>"
+                                     loading="lazy">
+                            </div>
                         </div>
-                    </div>
+                    <?php else: ?>
+                        <div class="portfolio-card">
+                            <div class="portfolio-img gallery-placeholder">
+                                <span class="placeholder-icon" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24" width="34" height="34" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                                        <rect x="3" y="4" width="18" height="16" rx="2.5"></rect>
+                                        <circle cx="9" cy="10" r="1.6"></circle>
+                                        <path d="M3 17l4.5-4.5a2 2 0 0 1 2.8 0L17 19"></path>
+                                        <path d="M14 14l1.8-1.8a1.7 1.7 0 0 1 2.4 0L21 15"></path>
+                                    </svg>
+                                </span>
+                                <span class="placeholder-label">Foto segera</span>
+                            </div>
+                        </div>
+                    <?php endif; ?>
                 <?php endforeach; ?>
             </div>
         </div>
