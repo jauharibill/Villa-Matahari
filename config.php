@@ -25,12 +25,12 @@ $site = array(
     ),
     // Isi dengan path gambar di /assets/img/ (Human tambahkan file aslinya)
     'gallery'     => array(
-        'assets/img/gallery-1.jpg',
-        'assets/img/gallery-2.jpg',
-        'assets/img/gallery-3.jpg',
-        'assets/img/gallery-4.jpg',
-        'assets/img/gallery-5.jpg',
-        'assets/img/gallery-6.jpg',
+        array('src' => 'assets/img/gallery-1.jpg', 'alt' => 'Kolam renang dengan view pegunungan'),
+        array('src' => 'assets/img/gallery-2.jpg', 'alt' => 'Kolam renang villa yang tenang'),
+        array('src' => 'assets/img/gallery-3.jpg', 'alt' => 'Pemandangan gunung saat senja'),
+        array('src' => 'assets/img/gallery-4.jpg', 'alt' => 'Ruang keluarga yang hangat dan modern'),
+        array('src' => 'assets/img/gallery-5.jpg', 'alt' => 'Kamar tidur yang bersih dan nyaman'),
+        array('src' => 'assets/img/gallery-6.jpg', 'alt' => 'Ruang santai untuk bersantai'),
     ),
     // Testimoni netral (placeholder) — ganti dengan data asli dari pemilik nanti.
     'testimonials' => array(
