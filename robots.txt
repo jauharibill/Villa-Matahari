@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# AI crawlers diizinkan (GPTBot, ClaudeBot, CCBot, OAI-SearchBot, PerplexityBot)
+Allow: GPTBot
+Allow: ClaudeBot
+Allow: CCBot
+Allow: OAI-SearchBot
+Allow: PerplexityBot
+
+Sitemap: https://villa.batuteknologi.web.id/sitemap.xml

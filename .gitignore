@@ -1,0 +1,7 @@
+# Villa Matahari gitignore
+.DS_Store
+*.log
+node_modules/
+.git/
+# keep assets/img but ignore future large uploads if any
+assets/img/uploads/

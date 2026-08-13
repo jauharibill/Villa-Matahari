@@ -1,0 +1,21 @@
+# Villa [NAMA] — BATU Teknologi
+
+Penginapan villa di Kota Batu, Jawa Timur. Website company profile & landing page untuk reservasi liburan dengan view gunung, kolam renang, dan fasilitas lengkap.
+
+## Tentang
+Villa [NAMA] adalah penginapan nyaman di Kota Batu yang menawarkan ketenangan di kaki gunung dengan harga terjangkau (mulai Rp 750.000/malam).
+
+## Fasilitas Utama
+- Kolam renang
+- WiFi cepat
+- View gunung
+- Area parkir luas
+- Dapur lengkap
+- AC & air panas
+
+## Reservasi
+Hubungi via WhatsApp: https://wa.me/6282245088948
+
+## Tautan
+- Beranda: https://villa.batuteknologi.web.id/
+- Dikelola oleh BATU Teknologi: https://batuteknologi.web.id
