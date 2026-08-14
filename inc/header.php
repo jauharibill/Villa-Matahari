@@ -2,7 +2,7 @@
 <nav id="navbar">
     <div class="container nav-container">
         <a href="/" class="logo">
-            <span class="logo-icon">&lt;/&gt;</span>
+            <span class="logo-icon"><i class="fa-solid fa-sun"></i></span>
             <span class="logo-text"><?php echo htmlspecialchars($site['name'], ENT_QUOTES, 'UTF-8'); ?></span>
         </a>
         <div class="nav-links-wrap" id="navLinks">
