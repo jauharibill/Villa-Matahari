@@ -70,6 +70,9 @@ img { max-width: 100%; display: block; }
 .logo:hover .logo-text { color: var(--primary-dark); }
 .nav-links-wrap { position: relative; }
 .nav-links { display: flex; align-items: center; gap: 26px; list-style: none; }
+#navbar:not(.scrolled) .logo-text,
+#navbar:not(.scrolled) .nav-links a:not(.nav-cta) { color: #fff; }
+#navbar:not(.scrolled) .nav-links a:not(.nav-cta):hover { color: #f8fafc; }
 .nav-links a { color: var(--text); font-weight: 500; opacity: .8; transition: opacity .2s ease, color .2s ease; }
 .nav-links a:hover, .nav-links a.active { opacity: 1; color: var(--primary-dark); }
 .nav-cta {
@@ -80,11 +83,13 @@ img { max-width: 100%; display: block; }
 .nav-cta:hover { transform: translateY(-1px); box-shadow: var(--shadow-md); }
 .hamburger { display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: pointer; }
 .hamburger span { width: 26px; height: 3px; background: var(--text); border-radius: 3px; }
+#navbar:not(.scrolled) .hamburger span { background: #fff; }
 
 /* Hero */
 .villa-hero {
     position: relative; padding: 180px 0 120px;
-    background: linear-gradient(165deg, #ffffff 0%, #f0fdf5 48%, #ecfdf5 100%);
+    background: linear-gradient(rgba(15, 23, 42, 0.55), rgba(15, 23, 42, 0.65)),
+                url("/assets/img/gallery-3.jpg") center/cover no-repeat;
     overflow: hidden; text-align: center;
 }
 .villa-hero::before {
@@ -99,6 +104,11 @@ img { max-width: 100%; display: block; }
     pointer-events: none;
 }
 .villa-hero-content { position: relative; max-width: 760px; margin: 0 auto; }
+.villa-hero .section-tag {
+    background: rgba(255, 255, 255, 0.15); color: #fff;
+    border-color: rgba(255, 255, 255, 0.25);
+}
+.villa-hero h1 { color: #fff; }
 .section-tag {
     display: inline-block; padding: 7px 18px; border-radius: 99px;
     background: rgba(5, 150, 105, 0.1); color: var(--primary-dark);
@@ -106,12 +116,12 @@ img { max-width: 100%; display: block; }
     border: 1px solid rgba(5, 150, 105, 0.18);
 }
 .villa-hero h1 { font-size: clamp(36px, 6.5vw, 60px); font-weight: 800; line-height: 1.08; letter-spacing: -0.03em; margin-bottom: 20px; }
-.villa-hero-desc { color: var(--muted); font-size: 1.15rem; margin: 0 auto 34px; max-width: 560px; }
+.villa-hero-desc { color: #f8fafc; font-size: 1.15rem; margin: 0 auto 34px; max-width: 560px; }
 .villa-hero-actions { display: flex; gap: 24px; align-items: center; justify-content: center; flex-wrap: wrap; }
 .villa-price {
-    color: var(--primary-dark); font-weight: 700; font-size: 1.02rem;
-    padding: 10px 20px; border-radius: var(--radius-sm); background: rgba(5, 150, 105, 0.08);
-    border: 1px solid rgba(5, 150, 105, 0.16);
+    color: #fff; font-weight: 700; font-size: 1.02rem;
+    padding: 10px 20px; border-radius: var(--radius-sm); background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.25);
 }
 
 /* Section header */
