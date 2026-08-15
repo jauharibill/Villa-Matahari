@@ -7,8 +7,8 @@ $site = array(
     'name'        => 'Villa Matahari',
     'tagline'     => 'Rumah nyaman untuk menginap, di kaki Gunung Arjuno Kota Batu',
     'description' => 'Villa Matahari Kota Batu — penginapan nyaman dengan view gunung, ' .
-                     'kolam renang, WiFi cepat, dan suasana yang tenang seperti rumah sendiri. ' .
-                     'Mulai Rp 750.000/malam. Booking via WhatsApp!',
+                     'kolam renang, WiFi cepat, dan suasana tenang. ' .
+                     'Mulai Rp 750.000/malam. Booking WhatsApp!',
     'location'    => 'Kota Batu, Jawa Timur',
     'wa'          => '6282245088948',                      // 62xxx tanpa +
     'email'       => 'villa@batuteknologi.web.id',

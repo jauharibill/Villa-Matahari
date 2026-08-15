@@ -1,9 +1,9 @@
-# Villa [NAMA] — BATU Teknologi
+# Villa Matahari — BATU Teknologi
 
 Penginapan villa di Kota Batu, Jawa Timur. Website company profile & landing page untuk reservasi liburan dengan view gunung, kolam renang, dan fasilitas lengkap.
 
 ## Tentang
-Villa [NAMA] adalah penginapan nyaman di Kota Batu yang menawarkan ketenangan di kaki gunung dengan harga terjangkau (mulai Rp 750.000/malam).
+Villa Matahari adalah penginapan nyaman di Kota Batu yang menawarkan ketenangan di kaki gunung dengan harga terjangkau (mulai Rp 750.000/malam).
 
 ## Fasilitas Utama
 - Kolam renang

@@ -57,11 +57,6 @@ $ld = array(
     'amenityFeature' => array_map(function ($f) {
         return array('@type' => 'LocationFeatureSpecification', 'name' => $f['label']);
     }, $site['facilities']),
-    'aggregateRating' => array(
-        '@type'       => 'AggregateRating',
-        'ratingValue' => '4.9',
-        'reviewCount' => '120',
-    ),
 );
 ?>
 <script type="application/ld+json">
