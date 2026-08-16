@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <!-- Villa Matahari logo: sunrise over mountain peak (concept 1) -->
+  <defs>
+    <g id="ray">
+      <rect x="56.5" y="8" width="7" height="17" rx="3.5"/>
+    </g>
+  </defs>
+  <!-- Sun body: half-circle rising from behind mountain, emerald #059669 -->
+  <circle cx="60" cy="74" r="27" fill="#059669"/>
+  <!-- 8 symmetric rays around sun center (60,74): angles -90,-67.5,...,+90 (upper half) -->
+  <g fill="#059669">
+    <use href="#ray" transform="rotate(-90 60 74)"/>
+    <use href="#ray" transform="rotate(-67.5 60 74)"/>
+    <use href="#ray" transform="rotate(-45 60 74)"/>
+    <use href="#ray" transform="rotate(-22.5 60 74)"/>
+    <use href="#ray" transform="rotate(0 60 74)"/>
+    <use href="#ray" transform="rotate(22.5 60 74)"/>
+    <use href="#ray" transform="rotate(45 60 74)"/>
+    <use href="#ray" transform="rotate(67.5 60 74)"/>
+  </g>
+  <!-- Mountain: ink (#0f172a) triangle -->
+  <path d="M8 112 L60 44 L112 112 Z" fill="#0f172a"/>
+  <!-- snowcap: white chevron at peak -->
+  <path d="M50.5 61 L60 44 L69.5 61 L65 61 L60 52.5 L55 61 Z" fill="#ffffff"/>
+</svg>
