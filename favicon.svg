@@ -1,5 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
-  <rect width="64" height="64" rx="14" fill="#ffffff"/>
-  <text x="50%" y="54%" text-anchor="middle" dominant-baseline="middle"
-        font-family="monospace" font-size="26" font-weight="bold" fill="#059669">&lt;/&gt;</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="64" height="64">
+  <rect width="120" height="120" rx="22" fill="#ffffff"/>
+  <circle cx="60" cy="74" r="27" fill="#059669"/>
+  <g fill="#059669">
+    <rect x="56.5" y="8" width="7" height="17" rx="3.5" transform="rotate(-90 60 74)"/>
+    <rect x="56.5" y="8" width="7" height="17" rx="3.5" transform="rotate(-67.5 60 74)"/>
+    <rect x="56.5" y="8" width="7" height="17" rx="3.5" transform="rotate(-45 60 74)"/>
+    <rect x="56.5" y="8" width="7" height="17" rx="3.5" transform="rotate(-22.5 60 74)"/>
+    <rect x="56.5" y="8" width="7" height="17" rx="3.5" transform="rotate(0 60 74)"/>
+    <rect x="56.5" y="8" width="7" height="17" rx="3.5" transform="rotate(22.5 60 74)"/>
+    <rect x="56.5" y="8" width="7" height="17" rx="3.5" transform="rotate(45 60 74)"/>
+    <rect x="56.5" y="8" width="7" height="17" rx="3.5" transform="rotate(67.5 60 74)"/>
+  </g>
+  <path d="M8 112 L60 44 L112 112 Z" fill="#0f172a"/>
+  <path d="M50.5 61 L60 44 L69.5 61 L65 61 L60 52.5 L55 61 Z" fill="#ffffff"/>
 </svg>
